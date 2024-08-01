@@ -1,0 +1,168 @@
+2024.07.31 21:23:15 INFO  Started: Metals version 1.3.4 in folders '/Users/dhruvaaklekar/Downloads/rocket-chip-1.6' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@349d0fdd]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@69ce2f0d]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@349d0fdd]
+2024.07.31 21:23:15 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.31 21:23:26 INFO  running '/Users/dhruvaaklekar/Downloads/rocket-chip-1.6/.metals/millw --import ivy:com.lihaoyi::mill-contrib-bloop: mill.contrib.bloop.Bloop/install'
+2024.07.31 21:23:26 INFO  No mill version specified.
+2024.07.31 21:23:26 INFO  You should provide a version via '.mill-version' file or --mill-version option.
+2024.07.31 21:23:26 INFO  find: /Users/dhruvaaklekar/.cache/mill/download/.latest: No such file or directory
+2024.07.31 21:23:26 INFO  Retrieving latest mill version ...
+2024.07.31 21:23:26 INFO  Using mill version 0.11.10
+2024.07.31 21:23:26 INFO  Downloading mill 0.11.10 from https://repo1.maven.org/maven2/com/lihaoyi/mill-dist/0.11.10/mill-dist-0.11.10.jar ...
+2024.07.31 21:23:26 INFO    % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2024.07.31 21:23:26 INFO                                   Dload  Upload   Total   Spent    Left  Speed
+2024.07.31 21:23:26 INFO  
+2024.07.31 21:23:26 INFO    0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2024.07.31 21:23:27 INFO    0 59.2M    0 52211    0     0   417k      0  0:02:25 --:--:--  0:02:25  417k
+2024.07.31 21:23:27 INFO   59 59.2M   59 35.1M    0     0  31.3M      0  0:00:01  0:00:01 --:--:-- 31.2M
+2024.07.31 21:23:27 INFO  100 59.2M  100 59.2M    0     0  31.5M      0  0:00:01  0:00:01 --:--:-- 31.5M
+2024.07.31 21:23:29 INFO  Preparing Java 22.0.2 runtime; this may take a minute or two ...
+2024.07.31 21:23:32 INFO  [build.sc] [1/59] runClasspath.super.mill.scalalib.RunModule.runClasspath 
+2024.07.31 21:23:32 INFO  [build.sc] [2/59] scriptSources 
+2024.07.31 21:23:32 INFO  [build.sc] [3/59] parseBuildFiles 
+2024.07.31 21:23:32 INFO  [build.sc] [4/59] cliImports 
+2024.07.31 21:23:32 INFO  [build.sc] [5/59] runIvyDeps 
+2024.07.31 21:23:32 INFO  [build.sc] [6/59] scalaVersion 
+2024.07.31 21:23:32 INFO  [build.sc] [7/59] platformSuffix 
+2024.07.31 21:23:32 INFO  [build.sc] [8/59] ivyDeps 
+2024.07.31 21:23:32 INFO  [build.sc] [9/59] mandatoryIvyDeps.super.mill.scalalib.JavaModule.mandatoryIvyDeps 
+2024.07.31 21:23:32 INFO  [build.sc] [10/59] scalaOrganization 
+2024.07.31 21:23:32 INFO  [build.sc] [11/59] scalaLibraryIvyDeps 
+2024.07.31 21:23:32 INFO  [build.sc] [12/59] mandatoryIvyDeps 
+2024.07.31 21:23:32 INFO  [build.sc] [13/59] transitiveIvyDeps 
+2024.07.31 21:23:32 INFO  [build.sc] [14/59] resolveDepsExclusions 
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps 
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [1/1] artifacts (~0/0 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [2/2] artifacts (~0/0 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [2/2] artifacts (~0/2980 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [2/2] artifacts (~0/5007 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [2/2] artifacts (~1379/5007 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [2/2] artifacts (~2758/5007 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [2/2] artifacts (~4137/5007 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [2/2] artifacts (~4785/5007 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [2/2] artifacts (~5007/5007 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [2/2] artifacts (~5007/5007 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [2/2] artifacts (~5007/5007 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [3/3] artifacts (~5007/5007 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [3/3] artifacts (~5007/7159 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [3/3] artifacts (~6386/7159 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [3/3] artifacts (~7159/7159 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [15/59] resolvedRunIvyDeps | Downloading [3/3] artifacts (~7159/7159 bytes)
+2024.07.31 21:23:32 INFO  [build.sc] [16/59] transitiveLocalClasspath 
+2024.07.31 21:23:32 INFO  [build.sc] [17/59] compileResources 
+2024.07.31 21:23:32 INFO  [build.sc] [18/59] enclosingClasspath 
+2024.07.31 21:23:32 INFO  [build.sc] [19/59] lineNumberPluginClasspath 
+2024.07.31 21:23:32 INFO  [build.sc] [20/59] unmanagedClasspath 
+2024.07.31 21:23:32 INFO  [build.sc] [21/59] localCompileClasspath 
+2024.07.31 21:23:32 INFO  [build.sc] [22/59] localRunClasspath.super.mill.scalalib.RunModule.localRunClasspath 
+2024.07.31 21:23:32 INFO  [build.sc] [23/59] resources.super.mill.scalalib.JavaModule.resources 
+2024.07.31 21:23:32 INFO  [build.sc] [24/59] resources 
+2024.07.31 21:23:32 INFO  [build.sc] [25/59] mill.scalalib.ZincWorkerModule.classpath 
+2024.07.31 21:23:34 INFO  [build.sc] [26/59] mill.scalalib.ZincWorkerModule.zincLogDebug 
+2024.07.31 21:23:34 INFO  [build.sc] [27/59] mill.scalalib.ZincWorkerModule.worker 
+2024.07.31 21:23:34 INFO  [build.sc] [28/59] upstreamCompileOutput 
+2024.07.31 21:23:34 INFO  [build.sc] [29/59] sources.super.mill.scalalib.JavaModule.sources 
+2024.07.31 21:23:34 INFO  [build.sc] [30/59] sources 
+2024.07.31 21:23:34 INFO  [build.sc] [31/59] generateScriptSources 
+2024.07.31 21:23:34 INFO  1 targets failed
+2024.07.31 21:23:34 INFO  generateScriptSources java.nio.file.NoSuchFileException /Users/dhruvaaklekar/Downloads/rocket-chip-1.6/hardfloat/build.sc
+2024.07.31 21:23:34 INFO  java.nio.file.NoSuchFileException /Users/dhruvaaklekar/Downloads/rocket-chip-1.6/api-config-chipsalliance/build-rules/mill/build.sc
+2024.07.31 21:23:35 INFO  time: ran 'mill bloopInstall' in 9.09s
+2024.07.31 21:23:35 ERROR Mill command failed: /Users/dhruvaaklekar/Downloads/rocket-chip-1.6/.metals/millw --import ivy:com.lihaoyi::mill-contrib-bloop: mill.contrib.bloop.Bloop/install
+2024.07.31 21:24:16 INFO  Attempting to connect to the build server...
+2024.07.31 21:24:16 INFO  Replacing bloop java home /Users/dhruvaaklekar/Library/Caches/Coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_aarch64_mac_hotspot_17_35.tar.gz/jdk-17+35/Contents/Home with java home at /opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home.
+2024.07.31 21:24:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/dhruvaaklekar/Downloads/rocket-chip-1.6/.metals/bsp.trace.json or /Users/dhruvaaklekar/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.07.31 21:24:17 INFO  time: Connected to build server in 1.4s
+2024.07.31 21:24:17 INFO  Connected to Build server: Bloop v1.6.0
+2024.07.31 21:24:17 INFO  running doctor check
+2024.07.31 21:24:17 INFO  java targets: 
+2024.07.31 21:24:17 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.31 21:24:20 INFO  Disconnecting from Bloop session...
+2024.07.31 21:24:20 INFO  Shut down connection with build server.
+2024.07.31 21:24:20 INFO  Attempting to connect to the build server...
+2024.07.31 21:24:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/dhruvaaklekar/Downloads/rocket-chip-1.6/.metals/bsp.trace.json or /Users/dhruvaaklekar/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.07.31 21:24:20 INFO  time: Connected to build server in 20ms
+2024.07.31 21:24:20 INFO  Connected to Build server: Bloop v1.6.0
+2024.07.31 21:24:20 INFO  running doctor check
+2024.07.31 21:24:20 INFO  java targets: 
+2024.07.31 21:24:20 INFO  time: indexed workspace in 0.57s
+2024.07.31 21:24:22 WARN  org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_E ON PUBLIC.INDEXED_JAR(MD5) VALUES ( /* 2 */ '2CB086C96C3B5123C6167F4A7960B288' )"; SQL statement:
+insert into indexed_jar (md5, type_hierarchy_indexed) values (?, ?) [23505-230]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.index.Index.getDuplicateKeyException(Index.java:523)
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:223)
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:184)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:518)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:212)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:133)
+	at org.h2.command.Command.executeUpdate(Command.java:304)
+	at org.h2.command.Command.executeUpdate(Command.java:248)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:213)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:172)
+	at scala.meta.internal.metals.JarTypeHierarchy.addJar(JarTopLevels.scala:229)
+	at scala.meta.internal.metals.JarTypeHierarchy.addTypeHierarchyInfo(JarTopLevels.scala:216)
+	at scala.meta.internal.metals.Indexer.indexJdkSources(Indexer.scala:537)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$17(Indexer.scala:298)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$16(Indexer.scala:295)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$16$adapted(Indexer.scala:291)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:291)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:167)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:167)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1570)
+
+2024.07.31 21:24:22 INFO  time: indexed workspace in 4.38s
+Jul 31, 2024 9:26:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.07.31 21:30:49 INFO  Shutting down server
+2024.07.31 21:30:49 INFO  shutting down Metals
+2024.07.31 21:30:49 INFO  Shut down connection with build server.
+2024.07.31 21:30:49 INFO  Exiting server
+2024.07.31 23:11:47 INFO  Started: Metals version 1.3.4 in folders '/Users/dhruvaaklekar/Downloads/rocket-chip-1.6' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@66df8c79]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@15ed2106]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@66df8c79]
+2024.07.31 23:11:47 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+Jul 31, 2024 11:11:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.07.31 23:11:47 INFO  skipping build import with status 'Installed'
+2024.07.31 23:11:48 WARN  Build server is not auto-connectable.
+Jul 31, 2024 11:11:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 31, 2024 11:11:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.07.31 23:17:17 INFO  Shutting down server
+2024.07.31 23:17:17 INFO  shutting down Metals
+2024.07.31 23:17:17 INFO  Exiting server
+2024.07.31 23:40:40 INFO  Started: Metals version 1.3.4 in folders '/Users/dhruvaaklekar/Downloads/rocket-chip-1.6' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@5c8b6a14]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@2abd566c]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@5c8b6a14]
+2024.07.31 23:40:40 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+Jul 31, 2024 11:40:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.07.31 23:40:40 INFO  skipping build import with status 'Installed'
+2024.07.31 23:40:41 WARN  Build server is not auto-connectable.
+Jul 31, 2024 11:40:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
