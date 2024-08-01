@@ -166,3 +166,6 @@ INFO: Unsupported notification method: $/setTrace
 2024.07.31 23:40:41 WARN  Build server is not auto-connectable.
 Jul 31, 2024 11:40:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2024.08.01 08:38:03 INFO  no build target found for /Users/dhruvaaklekar/Downloads/rocket-chip-1.6/src/main/scala/amba/ahb/AHBLite.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.01 08:38:04 INFO  no build target found for /Users/dhruvaaklekar/Downloads/rocket-chip-1.6/src/main/scala/amba/ahb/AHBLite.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.01 08:41:36 INFO  no build target found for /Users/dhruvaaklekar/Downloads/rocket-chip-1.6/src/main/scala/amba/ahb/AHBLite.scala. Using presentation compiler with project's scala-library version: 3.3.3
